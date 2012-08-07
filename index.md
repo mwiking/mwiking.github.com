@@ -21,8 +21,8 @@ group: navigation
             Boosting your performance in the connected world
         </p>
         <p class="download-info">
-            <a class="btn btn-primary btn-large" href="http://www.pagelines.com/pricing">Our offerings</a>
-            <a class="btn btn-reverse btn-large" href="http://www.pagelines.com/tour">Contact us</a>
+            <a class="btn btn-primary btn-large" href="#">Our offerings</a>
+            <a class="btn btn-reverse btn-large" href="#">Contact us</a>
         </p>
     </div>
     <div class="mastlinks">
