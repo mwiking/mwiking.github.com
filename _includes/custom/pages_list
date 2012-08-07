@@ -1,0 +1,52 @@
+
+<ul class="nav nav-pills pull-right">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Digital solutions<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="/digital-solutions">About</a>
+      </li>
+      <li>
+        <a href="/digital-solutions/offers">Offers</a>
+      </li>
+      <li>
+        <a href="/digital-solutions/projects">Projects</a>
+      </li>
+      <li>
+        <a href="#">Staff</a>
+      </li>
+    </ul>
+    </li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Telecom management<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="/digital-solutions">About</a>
+      </li>
+      <li>
+        <a href="#">Offers</a>
+      </li>
+      <li>
+        <a href="#">Projects</a>
+      </li>
+      <li>
+        <a href="#">Staff</a>
+      </li>
+      </ul>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="/contact">Contact us</a>
+      </li>
+   </ul>
+</li>
+</ul>
+
+
+{% assign pages_list = nil %}
+{% assign group = nil %}

@@ -1,0 +1,21 @@
+---
+layout: page
+title: "Index"
+description: ""
+---
+{% include JB/setup %}
+
+<form class="well" action="http://getsimpleform.com/messages?form_api_token=f4c15e206d63ab4cec0bcd5f94cc627b" method="post">
+  <input type='hidden' name='redirect_to' value='http://fooey.com/thank-you.html' />
+  <label>Name</label>
+  <input type="text" class="span3" name="Name" placeholder="Your name…">
+  <label>Contact number</label>
+  <input type="text" class="span3" name="Contact number" placeholder="Your number…">
+  <label>Email</label>
+  <input type="text" class="span3" name="Email" placeholder="Your email…">
+  <label>Message</label>
+  <div class="controls">
+  <textarea class="input-xlarge" id="textarea" rows="5" name="Message" placeholder="Please type your message here..."></textarea>
+  </div>
+  <button type="submit" class="btn">Send</button>
+</form>
