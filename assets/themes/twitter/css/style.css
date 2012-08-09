@@ -183,7 +183,7 @@ hr.soften {
 @media (min-width: 980px) {
   .subnav-fixed {
     position: fixed;
-    top: 40px;
+    top: 0	;
     left: 0;
     right: 0;
     z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
@@ -841,7 +841,7 @@ form.well {
 
   /* Update subnav container */
   .subnav-fixed .nav {
-    width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
+    width: 960px; /* 2px less to account for left/right borders being removed when in fixed mode */
   }
 
 }
