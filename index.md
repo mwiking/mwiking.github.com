@@ -4,7 +4,7 @@ title: Home
 header: Home
 theme :
   name : twitter
-group: navigation
+pid: home 
 ---
 {% include JB/setup %}
 

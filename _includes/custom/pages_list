@@ -1,46 +1,49 @@
 
 <ul class="nav nav-pills pull-right">
-    <li>
+    <li {% if page.pid == 'home' %} class="active" {% endif %}>
       <a href="/">Home</a>
     </li>
-    <li class="dropdown">
+    
+    <li class="dropdown {% if page.pid == 'dabout' or page.pid == 'doffers' or page.pid == 'dprojects' or page.pid == 'dstaff'%} active {% endif %}">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Digital solutions<b class="caret"></b></a>
     <ul class="dropdown-menu">
-      <li>
+      <li {% if page.pid == 'dabout' %} class="active" {% endif %}>
         <a href="/digital-solutions">About</a>
       </li>
-      <li>
+      <li {% if page.pid == 'doffers' %} class="active" {% endif %}>
         <a href="/digital-solutions/offers">Offers</a>
       </li>
-      <li>
+      <li {% if page.pid == 'dprojects' %} class="active" {% endif %}>
         <a href="/digital-solutions/projects">Projects</a>
       </li>
-      <li>
-        <a href="#">Staff</a>
+      <li {% if page.pid == 'dstaff' %} class="active" {% endif %}>
+        <a href="/digital-solutions/staff">Staff</a>
       </li>
     </ul>
     </li>
+
     <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Telecom management<b class="caret"></b></a>
     <ul class="dropdown-menu">
-      <li>
+      <li {% if page.pid == 'tabout' %} class="active" {% endif %}>
         <a href="/digital-solutions">About</a>
       </li>
-      <li>
+      <li {% if page.pid == 'toffers' %} class="active" {% endif %}>
         <a href="#">Offers</a>
       </li>
-      <li>
+      <li {% if page.pid == 'tprojects' %} class="active" {% endif %}>
         <a href="#">Projects</a>
       </li>
-      <li>
+      <li {% if page.pid == 'staff' %} class="active" {% endif %}>
         <a href="#">Staff</a>
       </li>
       </ul>
       </li>
-      <li>
+
+      <li {% if page.pid == 'blog' or page.category == 'blog' %} class="active" {% endif %}>
         <a href="/blog">Blog</a>
       </li>
-      <li>
+      <li {% if page.pid == 'contact' %} class="active" {% endif %}>
         <a href="/contact">Contact us</a>
       </li>
    </ul>
