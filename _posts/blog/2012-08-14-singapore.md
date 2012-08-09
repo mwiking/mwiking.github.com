@@ -1,7 +1,6 @@
 ---
 layout: post
 category: blog
-published: true
 tags: [Singapore]
 ---
 
