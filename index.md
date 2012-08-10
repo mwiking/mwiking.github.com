@@ -21,8 +21,8 @@ pid: home
             Boosting your performance in the connected world
         </p>
         <p class="download-info">
-            <a class="btn btn-primary btn-large" href="/digital-solutions/about">Digital solutions</a>
-            <a class="btn btn-reverse btn-large" href="/telecom-management/about">Telecom management</a>
+            <a class="btn btn-primary btn-large" href="/digital-solutions">Digital solutions</a>
+            <a class="btn btn-reverse btn-large" href="/telecom-management">Telecom management</a>
         </p>
     </div>
     <div class="mastlinks">
