@@ -22,20 +22,20 @@
     </ul>
     </li>
 
-    <li class="dropdown">
+        <li class="dropdown {% if page.pid == 'tabout' or page.pid == 'toffers' or page.pid == 'tprojects' or page.pid == 'tstaff'%} active {% endif %}">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Telecom management<b class="caret"></b></a>
     <ul class="dropdown-menu">
       <li {% if page.pid == 'tabout' %} class="active" {% endif %}>
-        <a href="/digital-solutions">About</a>
+        <a href="/telecom-management">About</a>
       </li>
       <li {% if page.pid == 'toffers' %} class="active" {% endif %}>
-        <a href="#">Offers</a>
+        <a href="/telecom-management/offers">Offers</a>
       </li>
       <li {% if page.pid == 'tprojects' %} class="active" {% endif %}>
-        <a href="#">Projects</a>
+        <a href="/telecom-management/projects">Projects</a>
       </li>
       <li {% if page.pid == 'staff' %} class="active" {% endif %}>
-        <a href="#">Staff</a>
+        <a href="/telecom-management/staff">Staff</a>
       </li>
       </ul>
       </li>
