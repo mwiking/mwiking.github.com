@@ -10,7 +10,7 @@ pid: home
 
 
 <header class="jumbotron masthead with-splash">
-    <div class="splash"><br><br><br>
+    <div class="splash">
         <img class="masthead-img" src="{{ ASSET_PATH }}/img/cc-splash.png" alt="">
     </div>
     <div class="inner">

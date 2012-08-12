@@ -6,5 +6,9 @@ pid: blog
 ---
 {% include JB/setup %}
 
+<div class="page-header content">
+  <h1>Blog<small> our blog where we write about interesting subjects</small></h1>
+</div>
+<br>
 {% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
+{% include custom/posts_collate %}

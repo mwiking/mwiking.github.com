@@ -1,6 +1,7 @@
 ---
 layout: post
 category : blog
+image: http://demo.brankic.net/bigbang/streched/images/slider3.jpg
 tags : [stockholm]
 ---
 {% include JB/setup %}

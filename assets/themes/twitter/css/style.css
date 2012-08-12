@@ -1,4 +1,3 @@
-
 /* Add additional stylesheets below
 -------------------------------------------------- */
 /*
@@ -11,7 +10,7 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 40px;
+  padding-top: 90px;
   background-color: #fff;
   /*background-image: url(../img/grid-18px-masked.png);*/
   background-repeat: repeat-x;
@@ -87,7 +86,7 @@ hr.soften {
 
 /* Masthead (docs home) */
 .masthead {
-
+  padding-top: 36px;
   margin-bottom: 72px;
 }
 .masthead h1,
@@ -183,7 +182,7 @@ hr.soften {
 @media (min-width: 980px) {
   .subnav-fixed {
     position: fixed;
-    top: 0	;
+    top: 40px;
     left: 0;
     right: 0;
     z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
@@ -841,25 +840,9 @@ form.well {
 
   /* Update subnav container */
   .subnav-fixed .nav {
-    width: 960px; /* 2px less to account for left/right borders being removed when in fixed mode */
+    width: 958px; /* 2px less to account for left/right borders being removed when in fixed mode */
   }
 
-}
-
-
-/* HERE START MATTIAS CHANGES */
-/* Override some defaults */
-
-.head_spacer {
-  padding-bottom: 56px;
-}
-
-.container > footer {
-  margin-top: 20px;
-}
-
-.container > footer p {
-  text-align: center; /* center align it with the container */
 }
 
 /* tag_box ======================================================== */
@@ -894,4 +877,3 @@ form.well {
 	color:#FFF;
 }
 
-	

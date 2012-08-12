@@ -1,6 +1,7 @@
 ---
 layout: post
 category : blog
+image: http://demo.brankic.net/bigbang/streched/images/slider1.jpg
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}

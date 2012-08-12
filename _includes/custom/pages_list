@@ -1,5 +1,5 @@
 
-<ul class="nav nav-pills pull-right">
+<ul class="nav">
     <li {% if page.pid == 'home' %} class="active" {% endif %}>
       <a href="/">Home</a>
     </li>
