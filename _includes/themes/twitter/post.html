@@ -1,9 +1,10 @@
 <div class="page-header">
-  <h1>{{ page.title }} <small>Supporting tagline</small></h1>
+  <h1>{{ page.title }} <small>{{ page.description }}</small></h1>
 </div>
-
+		
 <div class="row">
   <div class="span8">
+	  <p><img src="{{ page.image }}" alt=""></p>
     {{ content }}
     <hr>
     <div class="pagination">

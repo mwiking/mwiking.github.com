@@ -1,5 +1,6 @@
 ---
 layout: post
+description: a post about Singapore
 category: blog
 image: http://demo.brankic.net/bigbang/streched/images/slider2.jpg
 tags: [Singapore]

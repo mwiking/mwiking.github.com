@@ -1,5 +1,6 @@
 ---
 layout: post
+description: a post about Stockholm
 category : blog
 image: http://demo.brankic.net/bigbang/streched/images/slider3.jpg
 tags : [stockholm]
