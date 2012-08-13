@@ -8,6 +8,7 @@ prose:
   rooturl: "_posts"
   metadata:
       "_posts/blog": |
+        layout: "post"
         description: "a post about Stockholm"
         category: "blog"
         image: "url of image"

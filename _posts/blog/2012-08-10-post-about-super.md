@@ -1,4 +1,5 @@
 ---
+layout: "post"
 description: "My super post"
 category: "blog"
 image: "http://demo.brankic.net/bigbang/streched/images/slider3.jpg"
