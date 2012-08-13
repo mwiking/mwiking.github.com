@@ -3,7 +3,7 @@
 # /:categories/:year/:month/:day/:title 
 auto: true
 server: true
-permalink: none
+permalink: /:categories/:year/:month/:day/:title
 prose:
   rooturl: "_posts"
   metadata:
