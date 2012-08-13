@@ -21,6 +21,7 @@ author :
   feedburner : feedname
   
  prose:
+  rooturl: "_posts"
   metadata:
     "_posts/blog": |
     layout: "post"
