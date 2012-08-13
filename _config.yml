@@ -1,10 +1,12 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+# /:categories/:year/:month/:day/:title 
+permalink: none
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".gitignore"]
 auto: true
 pygments: true
+server: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -17,6 +19,15 @@ author :
   github : mwiking
   twitter : username
   feedburner : feedname
+  
+  prose:
+    metadata:
+      "_posts/blog": |
+        layout: "post"
+        description: "subtitle"
+        category : "blog"
+        image: "url to imgae"
+        tags : [Digital Solutions, Singapore]
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -124,4 +135,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-  
+ 
