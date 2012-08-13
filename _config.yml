@@ -25,9 +25,9 @@ author :
       "_posts/blog": |
         layout: "post"
         description: "subtitle"
-        category : "blog"
+        category: "blog"
         image: "url to imgae"
-        tags : [Digital Solutions, Singapore]
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
