@@ -20,14 +20,7 @@ author :
   twitter : username
   feedburner : feedname
   
- prose:
-  rooturl: "_posts"
-  metadata:
-    "_posts/blog": |
-    layout: "post"
-    description: "subtitle"
-    category: "blog"
-    image: "url to imgae"
+
 
 
 # The production_url is only used when full-domain names are needed
