@@ -6,6 +6,11 @@ server: true
 permalink: none
 prose:
   rooturl: "_posts"
+  metadata:
+      "_posts/blog": |
+        description: "a post about Stockholm"
+        category: "blog"
+        image: "url of image"
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".gitignore"]
 pygments: true
