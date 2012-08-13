@@ -11,6 +11,7 @@ prose:
         description: "a post about Stockholm"
         category: "blog"
         image: "url of image"
+        tags : [intro, beginner]
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".gitignore"]
 pygments: true
