@@ -31,7 +31,7 @@ Usage:
 						   <span class="label label-inverse">{{ post.date | date: "%B %e, %Y" }}</span>
 						 </div>
 			       <div class="span10">
-			       	 <img src="{{ post.image }}" alt="">
+			       	 <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
 							 <p><h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2></p>
 							 {{ post.content | strip_html | truncatewords: 40 }}
 			       </div>
