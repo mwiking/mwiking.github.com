@@ -28,7 +28,7 @@ Usage:
 			   <div class="span12">
 			     <div class="row-fluid">
 			       <div class="span2">
-						   <span class="label label-inverse">{{ post.date | date: "%B %e, %Y" }}</span>
+						   <span class="label">{{ post.date | date: "%B %e, %Y" }}</span>
 						 </div>
 			       <div class="span10">
 			       	 <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
