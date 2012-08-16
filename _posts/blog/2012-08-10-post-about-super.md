@@ -12,4 +12,4 @@ published: true
 
 Ompa ompa.... lah lah
 
-Enter Text in Markdown format.
+Ompa oh yea yea
