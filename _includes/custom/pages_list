@@ -47,7 +47,7 @@
         <a href="/contact">Contact us</a>
       </li>
    </ul>
-</ul>
+
 
 
 {% assign pages_list = nil %}
