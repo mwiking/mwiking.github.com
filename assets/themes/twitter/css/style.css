@@ -11,10 +11,11 @@
 body {
   position: relative;
   padding-top: 90px;
-  background-color: #fff;
-  /*background-image: url(../img/grid-18px-masked.png);*/
-  background-repeat: repeat-x;
+  background-color: red;
+  background-image: url(../img/sno_ani02.gif);
+  background-repeat: repeat;
   background-position: 0 40px;
+
 }
 
 
