@@ -15,6 +15,7 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -24,50 +25,55 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+  <!-- Navbar ================================================== -->
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}/img/logo-white.png" alt="Cybercom logo"></a>
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+          <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/"><img src="{{ ASSET_PATH }}/img/logo-white.png" alt="Cybercom logo"></a>
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include JB/pages_list %}
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="content">
-        {{ content }}
-      </div>
-      <footer class="footer">
-			  <p class="pull-right"><a href="#">Back to top</a></p>
-				<div class="span3">
-	      	<address>
-						<strong>Cybercom Singapore</strong><br>
-						133 Cecil Street<br>
-						#12-04 Keck Seng Tower<br>
-						Singapore 069535<br>
-						<abbr title="Phone">P:</abbr> +65 6536 2780<br>
-						<abbr title="Fax">P:</abbr> +65 65362781<br>
-						<a href="mailto:info@cybercom.com">info@cybercom.com</a>
-					</address>
-	      </div>
-				<div class="span3">
-	      	<address>
-						<strong>Cybercom MEA</strong><br>
-						Office no. 108, 1st Floor, Building 14<br>
-						Dubai Internet City<br>
-						PO Box 73030, Dubai, UAE<br>
-						<abbr title="Phone">P:</abbr> +971 4440 4846<br>
-						<abbr title="Fax">P:</abbr> +971 4440 4847<br>
-						<a href="mailto:info@cybercom.com">info@cybercom.com</a>
-						</address>
-	      </div>
-			</footer>
-    </div> <!-- /container -->
-    <!-- /Java script -->
-	  <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
+    {{ content }}
+     
+  <!-- Footer
+   ================================================== -->
+   <footer class="footer">
+     <p class="pull-right"><a href="#">Back to top</a></p>
+     <p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+     <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+     <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+   </footer>
+
+ </div><!-- /container -->
+
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/google-code-prettify/prettify.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-button.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
     {% include JB/analytics %}
   </body>
 </html>
