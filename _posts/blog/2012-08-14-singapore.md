@@ -14,7 +14,6 @@ published: true
 
 {% include JB/setup %}
 
-![](/_posts/blog/sample_pic.jpg)
 
 - item
 - item
