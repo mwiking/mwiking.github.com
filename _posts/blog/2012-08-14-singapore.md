@@ -19,9 +19,7 @@ published: true
 - item
 - item
 
-
-
-# This is my new post and I'm so proud of it.... Madhuuuuu
+#  Madhuuuuu
 
 this is really nice
 
