@@ -10,11 +10,16 @@ tags:
 published: true
 ---
 
-![](/_posts/blog/sample_pic.jpg)
-
-
 
 {% include JB/setup %}
+
+![](/_posts/blog/sample_pic.jpg)
+
+- item
+- item
+- item
+
+
 
 # This is my new post and I'm so proud of it.... Madhuuuuu
 <a href="olle">aaaa</a>
