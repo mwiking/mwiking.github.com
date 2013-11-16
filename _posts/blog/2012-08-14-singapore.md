@@ -10,7 +10,9 @@ tags:
 published: true
 ---
 
-![](/_posts/blog/sample_pic.jpg)##
+![](/_posts/blog/sample_pic.jpg)
+
+
 
 {% include JB/setup %}
 
