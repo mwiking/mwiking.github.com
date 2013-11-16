@@ -2,10 +2,15 @@
 layout: post
 description: a post about Singapore
 category: blog
-image: http://demo.brankic.net/bigbang/streched/images/slider2.jpg
-tags: [Singapore, keck sent]
+image: "http://demo.brankic.net/bigbang/streched/images/slider2.jpg"
+tags: 
+  - Singapore
+  - keck sent
+  - "Singapore,keck sent"
 published: true
 ---
+
+![](/_posts/blog/sample_pic.jpg)##
 
 {% include JB/setup %}
 
