@@ -13,3 +13,10 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 
 ![asdf](/_posts/blog/thumbyes-mattias-005.jpg)
 
+Mattias is the shit lala
+
+- Mattias
+- Olle
+- Shit
+
+
