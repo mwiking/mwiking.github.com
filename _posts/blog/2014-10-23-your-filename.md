@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 description: a post about Stockholm
 category: blog
